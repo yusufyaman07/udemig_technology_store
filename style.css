@@ -1,0 +1,154 @@
+/* Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#banner {
+  background-image: url(/images/banner.jpeg);
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.banner-info .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-info .buttons button {
+  margin: 0 5px;
+}
+/* Hakkımızda Css  */
+
+#hakkımızda {
+  background: linear-gradient(to right, rgb(0, 141, 218), rgb(49, 54, 63));
+  padding: 20px;
+}
+
+#hakkımızda .container h1 {
+  background-color: white;
+  padding: 10px;
+  margin: 40px 0;
+  border-radius: 50px;
+}
+
+.container .accordion {
+  margin: 0 10px;
+}
+/*  Ürünler Alanı */
+#ürünler {
+  background: linear-gradient(to right, rgb(49, 54, 63), rgb(0, 141, 218));
+  padding: 20px;
+}
+
+.card-content {
+  height: 100px;
+  overflow: auto;
+}
+
+/* İletişim */
+#iletişim {
+  padding: 50px 0;
+  background-color: #b5c0d0;
+}
+
+#iletişim h2,
+#iletişim h3 {
+  color: #007bff;
+}
+
+#iletişim p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#iletişim .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+#iletişim .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+#iletişim i {
+  margin-right: 10px;
+}
+/* Footer Alanı  */
+footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.footer-section {
+  margin: 10px;
+}
+
+.footer-section h5 {
+  color: #007bff;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #6c757d;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  gap: 20px;
+}
+
+.footer-bottom p {
+  border-top: 1px solid #dee2e6;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

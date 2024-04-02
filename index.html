@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive_Design</title>
+    <!--* Css Link  -->
+    <link rel="stylesheet" href="style.css">
+    <!--! Bootstrap Links  -->
+    <!--* Bootstrap Css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--* Bootstrap Js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--* Fontawesome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--* Navbar Alanı  -->
+    <nav class="navbar navbar-expand-lg  bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Udemig Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav float-end">
+                    <a class="nav-link " aria-current="page" href="#">Ana Sayfa</a>
+                    <a class="nav-link" href="#hakkımızda">Hakkımızda</a>
+                    <a class="nav-link" href="#ürünler">Ürünlerimiz</a>
+                    <a class="nav-link" href="#iletişim">İletişim</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--* Banner Alanı  -->
+    <section id="banner">
+        <div class="banner-info">
+            <h1>Yenilikçi Teknoloji Dünyasına Adım Atın: <br> Teknoloji Marketimiz Sizi Bekliyor!</h1>
+            <p> Geniş ürün yelpazemiz ve
+                uzman personelimizle, en iyi alışveriş deneyimini sunmak için buradayız. Keşfetmek için bizi ziyaret
+                edin ve teknoloji dünyasının kapılarını aralayın!</p>
+            <div class="buttons">
+                <button class="btn btn-success">Keşfet</button>
+                <button class="btn btn-primary">Daha Fazla</button>
+            </div>
+        </div>
+    </section>
+    <!--* Hakkımızda alanı  -->
+    <section id="hakkımızda">
+        <div class="container">
+            <h1 class="text-center">Neden Biz?</h1>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Uzun Yıllara Dayanan Tecrübe
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            2000 yılından bu yana sektörde öncü bir rol oynuyoruz. Bu süre zarfında, teknoloji
+                            alanındaki gelişmeleri yakından takip ederek, sizlere en güncel ürünleri sunma konusunda
+                            uzmanlaştık.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Geniş Ürün Yelpazesi
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            En yeni akıllı telefonlardan, en performanslı bilgisayar bileşenlerine, giyilebilir
+                            teknolojiden, ev otomasyon sistemlerine kadar her türlü teknolojik ihtiyacınızı
+                            karşılayabilecek geniş bir ürün yelpazesine sahibiz.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Müşteri Odaklı Hizmet
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Müşteri memnuniyetini en üst düzeyde tutmak bizim için bir numaralı önceliktir. Sizlerin
+                            geri bildirimlerine değer veriyor ve hizmetlerimizi sürekli olarak iyileştirmeye
+                            odaklanıyoruz.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Uzman Kadro
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Alanında uzman, teknoloji tutkunu ekibimiz, sizlere alışveriş sürecinde rehberlik etmekten
+                            mutluluk duyar. İhtiyacınıza en uygun ürünleri bulmanızda ve teknolojiyle ilgili her türlü
+                            sorunuzda yanınızdayız.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Rekabetçi Fiyatlar
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            En kaliteli ürünleri en uygun fiyatlarla sunmayı hedefliyoruz. Müşterilerimize özel
+                            indirimler, kampanyalar ve avantajlı fiyatlarla bütçenizi koruyor, teknolojinin keyfini
+                            çıkarmanızı sağlıyoruz.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Sonrası Satış Hizmetleri
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Satış sonrası da sizinleyiz. Ürün kurulumundan, teknik desteğe kadar her türlü ihtiyacınızda
+                            çözüm odaklı bir yaklaşım sergileyerek, satın aldığınız ürünlerden tam anlamıyla memnun
+                            kalmanız için çalışıyoruz.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--* Ürünler Alanı  -->
+    <section id="ürünler">
+        <div class="container">
+            <h1 class="text-center mb-4">Ürünlerimiz</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/200" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Telefon</h5>
+                            <p class="card-text card-content">En son teknoloji ile donatılmış akıllı telefonlar, yüksek
+                                çözünürlüklü
+                                kameralar ve uzun pil ömrü ile dikkat çekiyor.</p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tekrarlanan kart örneği -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/201" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tablet</h5>
+                            <p class="card-text card-content">Hem iş hem de eğlence için ideal, taşınabilir ve yüksek
+                                performanslı
+                                tabletlerimizle tanışın.</p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/202" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kulaklık</h5>
+                            <p class="card-text card-content">Yüksek ses kalitesi ve konforlu tasarımıyla müziği her
+                                yerde yanınızda
+                                taşıyın.</p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/203" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laptop</h5>
+                            <p class="card-text card-content">Güçlü işlemcileri ve hafif tasarımları ile laptoplar, her
+                                türlü
+                                ihtiyaca yanıt veriyor.</p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/204" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tv</h5>
+                            <p class="card-text card-content">En yeni nesil akıllı televizyonlarla evinizin eğlence
+                                merkezini
+                                yaratın.</p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/205" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Klima</h5>
+                            <p class="card-text card-content">En güncel teknojiye sahip klimalar ile ister sıcak ister
+                                doğuk bir
+                                ortam yaratın.</p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/206" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Akıllı Saat</h5>
+                            <p class="card-text card-content">Sporda,işde kısacası tüm ortamlarda bir adım öne çıkın.
+                            </p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/207" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Yazıcı</h5>
+                            <p class="card-text card-content">Son model yazıcılar ile harika çıktılar alın.</p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/208" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Robot Süpürge</h5>
+                            <p class="card-text card-content">Temizlikde size ufak bir yardımcıya ne dersiniz ?</p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/209" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fotokopi Makinesi</h5>
+                            <p class="card-text card-content">Dökümanlarınızı çoğaltarak vakit kaybını engelleyin.</p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/210" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sarj Kablosu</h5>
+                            <p class="card-text card-content">Günceli yakalamak için şarjınızı fulleyin.</p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://picsum.photos/211" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Akülü Araba</h5>
+                            <p class="card-text card-content">Minik çocuklara harika bir eğlence.</p>
+                            <a href="#" class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--* İletişim Alanı  -->
+    <section id="iletişim">
+        <div class="container">
+            <h2 class="text-center my-5">İletişim</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>İletişim Bilgileri</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> İstanbul</p>
+                    <p><i class="fas fa-phone"></i> +905559998811</p>
+                    <p><i class="fas fa-envelope"></i> ex@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Bize Ulaşın</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Adınız-Soyadınız</label>
+                            <input type="text" class="form-control" id="name"
+                                placeholder="Adınızı ve soyadınızı yazınız">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Mailiniz</label>
+                            <input type="email" class="form-control" id="email"
+                                placeholder="E-posta adresinizi yazınız">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Alanı  -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h5>Sosyal Medya</h5>
+                <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Udemy Store. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
